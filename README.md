@@ -5,7 +5,7 @@ Follow these simple steps to use Doradus with Tomcat 7 Web Server.
 
 - Install and run Tomcat 7
   	* Download and install Tomcat 7 from https://tomcat.apache.org/tomcat-7.0-doc/appdev/installation.html on your machine at directory which will be used as <TOMCAT_HOME> in this document
- 	* Start Tomcat
+ 	* Start Tomcat:
  	  Go to <TOMCAT_HOME>/bin and run $./catalina.sh run for Mac/Linux or $catalina run for Windows
 
 - Build the war file for doradus-tomcat webapp  
