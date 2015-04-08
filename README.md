@@ -10,6 +10,7 @@ Follow these simple steps to use Doradus with Tomcat 7 Web Server.
  	  Go to <TOMCAT_HOME>/bin and run $./catalina.sh run for Mac/Linux or $catalina run for Windows
   
 - Build the war file for doradus-tomcat webapp:
+
         * Modify the Doradus configuration settings if necessary at directory doradus-tomcat/src/main/resources
         * Modify web.xml under src/main/webapp/WEB-INF to name the URL prefix as ROOT or _api or something else and use it for the command below
   	* Run this maven command under doradus-tomcat directory, for example
