@@ -9,7 +9,7 @@ Follow these simple steps to use Doradus with Tomcat 7 Web Server.
  	* Start Tomcat
  	  Go to <TOMCAT_HOME>/bin and run $./catalina.sh run for Mac/Linux or $catalina run for Windows
   
-- Build the war file for doradus-tomcat webapp
+- Build the war file for doradus-tomcat webapp:
         * Modify the Doradus configuration settings if necessary at directory doradus-tomcat/src/main/resources
         * Modify web.xml under src/main/webapp/WEB-INF to name the URL prefix as ROOT or _api or something else and use it for the command below
   	* Run this maven command under doradus-tomcat directory, for example
@@ -20,6 +20,6 @@ Follow these simple steps to use Doradus with Tomcat 7 Web Server.
   	* Copy the war file (ROOT.war or _api.war, for example) from./target to <TOMCAT_HOME>/webapps.
   	 The doradus-tomcat app will be deployed when the war file automatically gets exploded, then Dordus will be started at 8080 port.
            For example, Doradus at ROOT level, the URL is  http://localhost:8080/_applications or
-           Doradus at prefix level, it is http://localhost:8080/_api/_applications otherwise.
+           Doradus at prefix level, it is http://localhost:8080/_api/_applications
 
   	  
